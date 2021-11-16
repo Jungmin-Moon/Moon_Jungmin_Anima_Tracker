@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+
+<html> 
+	<head>
+		<script src = "AnimaWeapons.js"> 
+		</script>
+	</head>
+	
+	
+	<body>
+		<h1>FFXIV Anima Weapon Tracker</h1>
+		
+		<form id = "weaponsMake" name = "weaponsMake" method = "post">
+			<p>
+				<input type = "number" id = "numWeaponsWorkedOn">
+			</p>
+			<p>
+				<button type = "button" onclick = "updateWeapons();">Update Weapons</button>
+			</p>
+		</form>
+		
+		<h3 id = "currentNumMaking">
+			0 Weapons being made.
+		</h3>
+		
+		<table border>
+			<tr>
+				<th>Item Name</th>
+				<th>ARR Beast Tribe Token</th>
+				<th>Vanu Vanu Token</th>
+				<th>Vath Token</th>
+				<th>Moogle Token</th>
+				<th>Precision Gordian Bolts</th>
+				<th>Allied Seals</th>
+				<th>Poetics</th>
+			</tr>
+				
+			<tr>
+				<th>Unidentifiable Bone</th>
+				<th id = "boneARR"></th>
+				<th id = "boneVanu"></th>
+				<th id = "boneVath"></th>
+				<th id = "boneMoogle"></th>
+				<th id = "boneBolts"></th>
+				<th id = "boneAllied"></th>
+				<th id = "bonePoetics"></th>
+			</tr>
+			
+			<tr>
+				<th>Unidentifiable Shell</th>
+				<th id  = "shellARR"></th>
+				<th id  = "shellVanu"></th>
+				<th id  = "shellVath"></th>
+				<th id  = "shellMoogle"></th>
+				<th id  = "shellBolts"></th>
+				<th id  = "shellAllied"></th>
+				<th id  = "shellPoetics"></th>
+			</tr>
+			
+			<tr>
+				<th>Unidentifiable Ore</th>
+				<th id  = "oreARR"></th>
+				<th id  = "oreVanu"></th>
+				<th id  = "oreVath"></th>
+				<th id  = "oreMoogle"></th>
+				<th id  = "oreBolts"></th>
+				<th id  = "oreAllied"></th>
+				<th id  = "orePoetics"></th>
+			</tr>
+			
+			<tr>
+				<th>Unidentifiable Seed</th>
+				<th id  = "seedARR"></th>
+				<th id  = "seedVanu"></th>
+				<th id  = "seedVath"></th>
+				<th id  = "seedMoogle"></th>
+				<th id  = "seedBolts"></th>
+				<th id  = "seedAllied"></th>
+				<th id  = "seedPoetics"></th>
+			</tr>
+		
+		</table>
+		
+		<p>
+			<h4 id = "aetherOil"></h4>
+			<h4 id = "umbrite"></h4>
+			<h4 id = "crystalSand"></h4>
+			<h4 id = "singingClusters"></h4>
+			<h4 id = "pneumites"></h4>
+			<h4 id = "ink"></h4>
+		</p>
+	</body>
+	
+
+
+</html>
